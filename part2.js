@@ -1,3 +1,5 @@
+// aula 2 - consumindo os parâmetros query e route
+
 const express = require("express")
 
 const server = express()
@@ -40,7 +42,7 @@ server.get("/customers", (req, res) => {
 // mensagem específica
 server.get("/customers/:nome", (req, res) => {
     
-    const { nome } = req.params.nome;
+    const nome = req.params.nome;
     
     // const idade = req.params.idade;
 
@@ -53,9 +55,9 @@ server.get("/customers/:nome", (req, res) => {
 
 server.get("/customers/:nome/:idade", (req, res) => {
     
-    const { nome } = req.params.nome;
+    const nome = req.params.nome;
     
-    const { idade } = req.params.idade;
+    const idade = req.params.idade;
     
     // const idade = req.params.idade;
 
