@@ -1,6 +1,6 @@
 // adição de um usuário
 
-const express = require("express");
+import express from "express";
 const server = express();
 server.use(express.json())
 
