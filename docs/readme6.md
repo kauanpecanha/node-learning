@@ -1,1 +1,0 @@
-Nesta aula, vimos como devemos fazer para capturar um usuário dentre três dos existentes no sistema. o arquivo em questão é o part3.js.
